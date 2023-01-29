@@ -15,6 +15,7 @@ in
     ./fzy-native.nix
     ./media-files.nix
     ./project-nvim.nix
+    ./gh.nix
   ];
 
   # TODO:add support for aditional filetypes. This requires autocommands!
