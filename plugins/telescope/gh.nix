@@ -13,6 +13,7 @@ in
   config =
     mkIf cfg.enable {
       extraPlugins = [ cfg.package ];
+      extraPackages = [ pkgs.gh ];
       plugins.telescope.enabledExtensions = [ "gh" ];
     };
 }
